@@ -40,7 +40,7 @@
             tools:layout_editor_absoluteY="205dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/login"
             android:layout_width="match_parent"
             android:layout_height="51dp"
             android:background="@color/colorPrimary"

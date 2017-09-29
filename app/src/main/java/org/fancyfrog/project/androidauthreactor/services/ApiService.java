@@ -16,7 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ApiService {
 
 
-    String API_BASE_URL = "https://reqres.in/";
+    String API_BASE_URL = "http://52.172.194.123:8100/";
 
     public Call<Object> getLogin(String username, String password){
 

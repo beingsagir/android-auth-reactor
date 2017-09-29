@@ -3,6 +3,8 @@ package org.fancyfrog.project.androidauthreactor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -19,27 +21,38 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText username   = (EditText)findViewById(R.id.username);
-        EditText password   = (EditText)findViewById(R.id.password);
-
-        ApiService apiService = new ApiService();
-        Call<Object> call = apiService.getLogin(username.toString(), password.toString());
 
 
-        call.enqueue(new Callback<Object>() {
-            @Override
-            public void onResponse(Call<Object> call, Response<Object> response) {
-                Log.d("res", response.body().toString());
-                TextView myAwesomeTextView = (TextView)findViewById(R.id.token);
-                myAwesomeTextView.setText(response.body().toString());
-            }
+        Button clickButton = (Button) findViewById(R.id.login);
+        clickButton.setOnClickListener( new View.OnClickListener() {
 
             @Override
-            public void onFailure(Call<Object> call, Throwable t) {
-                System.out.println("Error");
-                Log.d("res", t.getLocalizedMessage());
+            public void onClick(View v) {
+                ApiService apiService = new ApiService();
+
+                EditText username   = (EditText)findViewById(R.id.username);
+                EditText password   = (EditText)findViewById(R.id.password);
+
+                Call<Object> call = apiService.getLogin(username.getText().toString(), password.getText().toString());
+
+                call.enqueue(new Callback<Object>() {
+                    @Override
+                    public void onResponse(Call<Object> call, Response<Object> response) {
+                        Log.d("res", response.body().toString());
+                        TextView myAwesomeTextView = (TextView)findViewById(R.id.token);
+                        myAwesomeTextView.setText(response.body().toString());
+                    }
+
+                    @Override
+                    public void onFailure(Call<Object> call, Throwable t) {
+                        System.out.println("Error");
+                        Log.d("res", t.getLocalizedMessage());
+                    }
+                });
             }
         });
+
+
 
     }
 }
