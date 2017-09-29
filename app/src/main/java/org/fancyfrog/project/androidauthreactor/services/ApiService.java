@@ -18,7 +18,7 @@ public class ApiService {
 
     String API_BASE_URL = "https://reqres.in/";
 
-    public void getLogin(){
+    public Call<Object> getLogin(String username, String password){
 
         OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
 
@@ -34,29 +34,14 @@ public class ApiService {
         AuthClient client =  retrofit.create(AuthClient.class);
 
         // Fetch a list of the Github repositories.
-        Call<Object> call =
-                client.login();
+        return  client.login(username, password);
 
-        // Execute the call asynchronously. Get a positive or negative callback.
-        call.enqueue(new Callback<Object>() {
-            @Override
-            public void onResponse(Call<Object> call, Response<Object> response) {
-                // The network call was a success and we got a response
-                //System.out.println(response.body());
-                Log.d("res", response.body().toString());
-                // TODO: use the repository list and display it
-            }
 
-            @Override
-            public void onFailure(Call<Object> call, Throwable t) {
+       // return call;
 
-                System.out.println("Error");
-                Log.d("res", t.getLocalizedMessage());
-                // the network call was a failure
-                // TODO: handle error
-            }
-        });
     }
+
+
 
 
 }

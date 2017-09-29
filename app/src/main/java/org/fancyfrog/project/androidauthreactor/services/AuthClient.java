@@ -12,8 +12,8 @@ import retrofit2.http.Path;
 
 public interface AuthClient {
 
-    @GET("/api/users/")
+    @GET("/api/signIn/{username}/{password}")
     Call<Object> login(
-            /*@Path("username") String username, @Path("password") String password*/
+            @Path("username") String username, @Path("password") String password
     );
 }
