@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_29d6f999a50cf6c8eb40781b2a9a4a367fc54ea8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_6f426c42d665663bb0175c43281041fbffa4f425\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\9a5e64d9e72a252521b03b7ce189866f5085e0d5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0b9546aba3522a82520048b736fd197fa62014ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\e7f30548a755b1d99600ee6dc9789b7303142fdb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_edbb2d04e33ac12c4d1b622a52b0f004827fe9f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.13.0_237547a89e21bfbd2fcb92e82e1bee0592e34efd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e34b3b77955b9d5231915ee87ace1ee8c7aee922">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_460cd0e6b9a948caf7f278d20ec300ea038b1439\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\AndroidSDK\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_43f65f2cd4d71d7fea717f39897bd815ada528fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\c3244f90d4563e5e2e3e6ac4195421d8da454fb9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9e9aee5513f3cf72bfae5414567e36c14c64f0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.3.0_59c5868c0a4b243bbe2615724fb721439553f1ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\dc8b783812118b84ab81aef77a8b6a3437b1e8c1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f0bdcdf18b15cc8f463397d5c2d8902f66bb8f14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.3.0_dba26cceecccab5aaca0cdc47733bcb6d695a51e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\acbc397660da1afffa5757bc500b13ef3d7b85fe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c470080e765f65e6a1295f3b7fc1419d7f4f6adf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\0cc52d34f6779636ae9429a72a312ddeecf8e6be\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aeec4d5023717840c92a84ab0c6b6541c6e9d29d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\7c5ccc4e01dd6e4739a60e70ae0d1a7da887afcc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a91b39d4dbc559f3c65e84bf1cf2b900a1958654\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\d7e553e1b6045360c9563256287b6fa8fc5bdeec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b9978fa469421466c41068a126efc5a6f9c1f0cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0b37dd43aa1445272c397b23f08922af5712aef9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\93e06d1b758d06ea3c7a507c7854ac808454af1d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_14caf7c9e36c061f16fc74b9148db6a25e05c7fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.android\build-cache\af0ac95df7c87a39b460bece6cacb789d2c16568\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_36f222097145c804817a15a1c4212929e598ca1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SAYAK CHATTOPADHYAY\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="F:\Fancy Frog\New folder\android-auth-reactor\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.8.0_459d7ac0a8d26d3aea927ab750c040ab778ab6dd\classes.dex" />
+    </item>
+
+</items>
