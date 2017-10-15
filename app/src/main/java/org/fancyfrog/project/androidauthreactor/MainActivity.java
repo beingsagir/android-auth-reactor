@@ -1,5 +1,6 @@
 package org.fancyfrog.project.androidauthreactor;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,12 +16,11 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
-
+    String jwtToken;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
 
         Button clickButton = (Button) findViewById(R.id.login);
@@ -39,8 +39,9 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<Object> call, Response<Object> response) {
                         Log.d("res", response.body().toString());
-                        TextView myAwesomeTextView = (TextView)findViewById(R.id.token);
-                        myAwesomeTextView.setText(response.body().toString());
+                        //TextView myAwesomeTextView = (TextView)findViewById(R.id.token);
+                        //myAwesomeTextView.setText(response.body().toString());
+                        jwtToken = response.body().toString();
                     }
 
                     @Override
@@ -49,10 +50,20 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("res", t.getLocalizedMessage());
                     }
                 });
+
+                printJWT(jwtToken);
+
             }
         });
 
 
+
+    }
+
+    private void printJWT(String jwtToken) {
+            Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+            intent.putExtra("passedjwt", jwtToken);
+            startActivity(intent);
 
     }
 }
